@@ -1,0 +1,60 @@
+{
+  "title": "John Doe - Resume",
+  "photo": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Calico_tabby_cat_-_Savannah.jpg/1200px-Calico_tabby_cat_-_Savannah.jpg"
+  },
+  "sections": [
+    {
+      "title": "Education",
+      "paragraphs": [
+        {
+          "type": "Paragraph",
+          "content": "2010-2014 Bachelor\u0027s Degree in Computer Science, University XYZ"
+        },
+        {
+          "type": "Paragraph",
+          "content": "2015-2017 Master\u0027s Degree in Software Engineering, University ABC"
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "paragraphs": [
+        {
+          "type": "ParagraphWithList",
+          "points": {
+            "listOfContent": [
+              {
+                "content": "Java"
+              },
+              {
+                "content": "Python"
+              },
+              {
+                "content": "JavaScript"
+              }
+            ]
+          },
+          "content": "Programming Languages"
+        },
+        {
+          "type": "ParagraphWithList",
+          "points": {
+            "listOfContent": [
+              {
+                "content": "Spring Framework"
+              },
+              {
+                "content": "React"
+              },
+              {
+                "content": "Django"
+              }
+            ]
+          },
+          "content": "Tools and Frameworks"
+        }
+      ]
+    }
+  ]
+}
